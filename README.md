@@ -4,7 +4,7 @@ This is a fork of `cut-release` it includes all the features of cut-release
 except that when it creates a git tag instead of tagging with just the version, it
 tags with
 
-    c
+    <package-name>@<version>
 
 The reason to do this is when you want to manage multiple npm packages
 in a single repo. In this case you need to avoid tag name conflicts and this accomplishes
@@ -29,7 +29,7 @@ A command line tool that helps you make faster npm releases.
 # Usage 
 
 ```
-Usage: cut-release [<newversion> | patch | minor | major | prepatch | preminor | premajor | prerelease]
+Usage: gilbox-cut-release [<newversion> | patch | minor | major | prepatch | preminor | premajor | prerelease]
 
 
   Options:
