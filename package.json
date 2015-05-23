@@ -4,7 +4,7 @@
   "description": "A tool that helps you make faster npm releases",
   "main": "index.js",
   "bin": {
-    "cut-release": "./bin/gilbox-cut-release.js"
+    "gilbox-cut-release": "./bin/gilbox-cut-release.js"
   },
   "scripts": {
     "test": "standard"
