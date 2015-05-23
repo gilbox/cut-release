@@ -1,4 +1,16 @@
-# cut-release
+# fork info
+
+This is a fork of `cut-release` it includes all the features of cut-release
+except that when it creates a git tag instead of tagging with just the version, it
+tags with
+
+    c
+
+The reason to do this is when you want to manage multiple npm packages
+in a single repo. In this case you need to avoid tag name conflicts and this accomplishes
+that in the simplest way.
+
+# cut-private-release
 
 A command line tool that helps you make faster npm releases.
 
@@ -12,7 +24,7 @@ A command line tool that helps you make faster npm releases.
 
 # Install
 
-    npm install -g cut-release
+    npm install -g gilbox-cut-release
 
 # Usage 
 

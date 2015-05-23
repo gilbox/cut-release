@@ -212,7 +212,8 @@ maybeSelfUpdate(function (err, shouldSelfUpdate) {
     confirm(version, function (yes) {
       isGitRepo(function (isGitRepo) {
         var commands = [
-          'npm version ' + version,
+          'npm --no-git-tag-version version ' + version,
+          isGitRepo && 'git tag -a ' + pkg.name + '@' + version,
           isGitRepo && 'git push origin',
           isGitRepo && 'git push origin --tags',
           'npm publish'

@@ -1,5 +1,5 @@
 {
-  "name": "cut-release",
+  "name": "gilbox-cut-release",
   "version": "0.1.3",
   "description": "A tool that helps you make faster npm releases",
   "main": "index.js",
