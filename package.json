@@ -4,14 +4,14 @@
   "description": "A tool that helps you make faster npm releases",
   "main": "index.js",
   "bin": {
-    "cut-release": "./bin/cut-release.js"
+    "cut-release": "./bin/gilbox-cut-release.js"
   },
   "scripts": {
     "test": "standard"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bjoerge/cut-release"
+    "url": "https://github.com/gilbox/cut-release"
   },
   "keywords": [
     "npm",
@@ -20,12 +20,12 @@
     "tag",
     "publish"
   ],
-  "author": "Bjørge Næss",
+  "author": "Bjørge Næss (forked by gilbox)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bjoerge/cut-release/issues"
+    "url": "https://github.com/gilbox/cut-release/issues"
   },
-  "homepage": "https://github.com/bjoerge/cut-release",
+  "homepage": "https://github.com/gilbox/cut-release",
   "dependencies": {
     "async": "^0.9.0",
     "chalk": "^1.0.0",
