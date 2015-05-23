@@ -191,10 +191,10 @@ function maybeSelfUpdate (callback) {
 
 function selfUpdate () {
   log(chalk.blue('Running selfupdate. Please hang on...'))
-  var cmd = 'npm i -g cut-release@latest'
+  var cmd = 'npm i -g gilbox-cut-release@latest'
   execCmd(cmd, function () {
     log(chalk.blue('Self update completed'))
-    spawn('cut-release', process.argv.slice(2), {stdio: 'inherit'})
+    spawn('gilbox-cut-release', process.argv.slice(2), {stdio: 'inherit'})
   })
 }
 
