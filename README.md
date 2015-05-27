@@ -1,7 +1,8 @@
 # fork info
 
 This is a fork of `cut-release` it includes all the features of cut-release
-except that when it creates a git tag instead of tagging with just the version, it
+except that **it always assumes you're in a git repo** and
+when it creates a git tag instead of tagging with just the version, it
 tags with
 
     <package-name>@<version>
